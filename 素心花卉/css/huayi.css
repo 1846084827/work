@@ -1,0 +1,212 @@
+/*清楚浏览器默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #111;
+    text-decoration: none;/*文本样式为空*/
+}
+/*花卉首页标题的开始*/
+
+body{
+    background: #F1F1F1;
+}
+.top{
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    float: left;
+    position: fixed;
+    z-index: 999;
+}
+.title{
+    width: 1170px;
+    height: 79px;
+    /*background: #00a5c4;*/
+    margin: 0 auto;
+    position: relative;
+
+
+}
+.title img{
+    margin-top: 14.5px;
+    float: left;
+    width: 150px;
+    height: 50px;
+}
+.title-text{
+    width: 86px;
+    height: 79px;
+    /*background: #ffac13;*/
+    float: right;
+    margin: 0 auto;
+    line-height: 79px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.a{
+    color: #62a8ea;
+}
+.title-text:hover{
+    color: #62a8ea;
+}
+/*花卉首页标题的结束*/
+/*内容部分的开始*/
+.MostimgBox{
+    width: 1349px;
+    height: 1089px;
+    background: red;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 79px;
+}
+.ContainerBox{
+    width: 1349px;
+    height: 1089px;
+    background: #00a5c4;
+    padding:0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.RowBox{
+    width: 1349px;
+    height: 1089px;
+    background: #f96868;
+    margin-right:-15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+.Row{
+    width: 1349px;
+    height: 1089px;
+    background: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+.oneleftBox{
+    width: 674.5px;
+    height:544.5px;
+    background: #000;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1s;
+}
+.oneleftBox img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    transition: all 1s;
+}
+.oneleftBox:hover.oneleftBox img{
+    transform: scale(1.2,1.2);
+    opacity: 0.3;
+}
+.SmallTextBox:hover{
+    transform: none;
+}
+.SmallTextBox{
+    width: 674.5px;
+    height: 544.5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    z-index: 999;
+}
+.TextBox{
+    width: 120px;
+    height: 137px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 176px auto 0;
+}
+.firsttext{
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+}
+.line{
+    width: 20px;
+    height: 2px;
+    background: #b0b0b0;
+    margin: 15px auto;
+    content: '';
+    display: block;
+}
+.Bigtitle{
+    font-size: 24px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.lookBox{
+    width: 100%;
+    height: 36px;
+}
+.lookthe{
+    width: 60px;
+    height: 36px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid #b0b0b0;
+}
+
+/*内容部分的结束*/
+/*底部部分开始*/
+.footer-box{
+    width: 1349px;
+    height: 161px;
+    /*background: red;*/
+    padding-bottom: 20px;
+    margin-top: 1168px;
+    position: absolute;
+
+}
+.first-line{
+    width: 1349px;
+    border-top: 1px solid #f0f2f5;
+    background: #fff;
+    padding: 10px 0;
+}
+.tubiao{
+    width: 1349px;
+    height: 46px;
+    /*background: #ff6700;*/
+    margin-top: 10px;
+    padding: 5px 0;
+    text-align: center;
+    line-height: 56px;
+}
+.tubiao img{
+    width:26px;
+    height: 26px;
+    margin-left: 5px;
+}
+.foot-text{
+    width: 1349px;
+    height: 75px;
+    /*background: greenyellow;*/
+    /*position: absolute;*/
+    text-align: center;
+}
+.text-box{
+    width: 1140px;
+    height: 25px;
+    /*background: #e33333;*/
+    line-height: 25px;
+    /*position: absolute;*/
+    left: 104.5px;
+    text-align: center;
+    color: #89eceb;
+    margin: 0 auto;
+}
+/*底部部分结束*/

@@ -1,0 +1,425 @@
+/*清楚浏览器默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;/*文本样式为空*/
+}
+/*花卉首页标题的开始*/
+.top{
+    width: 1349px;
+    height: 79px;
+    background: #000000;
+    background: rgba(0,0,0,0.15);
+    float: left;
+    position: fixed;
+    z-index: 999;
+}
+.title{
+    width: 1170px;
+    height: 79px;
+    /*background: #00a5c4;*/
+    margin: 0 auto;
+    color:#fff;
+    position: relative;
+    
+}
+.title img{
+    margin-top: 14.5px;
+    float: left;
+    width: 150px;
+    height: 50px;
+}
+.title-text{
+    width: 86px;
+    height: 79px;
+    /*background: #ffac13;*/
+    float: right;
+    margin: 0 auto;
+    line-height: 79px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.a{
+    color: #62a8ea;
+}
+/*.title-text:hover{*/
+    /*color: #62a8ea;*/
+/*}*/
+
+/*花卉首页标题的结束*/
+/*花卉首页轮播图部分开始*/
+.lunbo{
+    width: 1349px;
+    height: 759px;
+    /*background: blue;*/
+    box-sizing: border-box;
+
+}
+.lunbo img{
+    width: 1349px;
+    height: 759px;
+}
+.dots{
+    width: 100px;
+    height: 10px;
+    /*background: #000;*/
+    position: absolute;
+    left: 665px;
+    bottom: -170px;
+    cursor: pointer;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.dot:hover{
+    background: #00a5c4;
+}
+.hover{
+    background: #00a5c4;
+}
+/*花卉首页轮播图部分结束*/
+/*花卉首页商品推荐部分开始*/
+.commodity-box{
+    width: 1349px;
+    height: 604px;
+    /*background: #000;*/
+    /*position: absolute;*/
+
+
+}
+.container{
+    width: 1170px;
+    height: 604px;
+    /*background: #ff6700;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    margin: 70px auto;
+}
+.container-title{
+    width: 1140px;
+    height: 43px;
+    /*background: #00a5c4;*/
+    margin: 0 auto;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 43px;
+}
+/*.more{*/
+    /*width: 30px;*/
+    /*height: 25px;*/
+    /*background: #ff6700;*/
+    /*border-color: #00a5c4;*/
+    /*box-sizing: border-box;*/
+    /*color: #fff;*/
+/*}*/
+.desc{
+    font-size: 16px;
+    color: #5e7387;
+}
+.container-bd{
+    width: 1140px;
+    height: 476px;
+    /*background: #e33333;*/
+    margin: 50px auto;
+    position: relative;
+
+}
+.container-main{
+    width: 1020px;
+    height: 476px;
+    /*background: #ffac13;*/
+    margin: 0 auto;
+}
+.box{
+    width: 320px;
+    height: 420px;
+    background: #fff;
+    float: left;
+    margin-top: 28px;
+    text-align: center;
+    margin-right: 20px;
+}
+.box h4{
+    font-size: 18px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-weight: 400;
+    color: #37474f;
+}
+.box p{
+    font-size: 14px;
+    color: #757575;
+    margin: 0 0 11px;
+    box-sizing: border-box;
+}
+.box div{
+    width: 320px;
+    height: 36px;
+    background: #f96868;
+    font-size: 14px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    cursor: pointer;
+    position: relative;
+}
+.desc p{
+    width: 288px;
+    height: 22px;
+    /*background: blue;*/
+    position: absolute;
+    left: 16px;
+    top: 7px;
+    color: #fff;
+    font-size: 14px;
+}
+.desc i{
+    color: #9c2115;
+}
+.circle{
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+}
+.jiantou i{
+    position: absolute;
+    margin-top: 223px;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 15px;
+
+
+}
+.jiantou1 i{
+    position: absolute;
+    margin-top: 223px;
+    float: right;
+    margin-right: 0px;
+    font-size: 30px;
+    color: #fff;
+    right: 15px;
+}
+/*花卉首页商品推荐部分结束*/
+/*花卉花语部分开始*/
+.huayu-box{
+    width:1349px;
+    height: 567px;
+    background: #f5f5f5;
+    /*position: absolute;*/
+    padding: 70px 0;
+
+}
+.huayu-body{
+    position: relative;
+    width: 1140px;
+    height: 567px;
+    /*background: #00a5c4;*/
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.huayu-title{
+    width: 1140px;
+    height: 43px;
+    /*background: #ffac13;*/
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 43px;
+    margin-top: 0;
+    margin-bottom: 11px;
+    box-sizing: border-box;
+}
+.huayu-text{
+    width: 1170px;
+    height: 528px;
+    /*background: #e33333;*/
+    margin-top: 20px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.huayu-small{
+    position: relative;
+    width: 555px;
+    height: 96px;
+    /*background: #83c44e;*/
+    margin-top: 30px;
+    margin-bottom: 0;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.huayu-small img{
+    width: 160px;
+    height: 96px;
+    border-radius: 4px;
+    float: left;
+    padding-right: 20px;
+
+}
+.text-bigbox{
+    position: relative;
+    width: 375px;
+    height: 96px;
+    /*background: #5e7387;*/
+    float: left;
+}
+.small-title{
+    margin-bottom: 5px;
+    width:375px;
+    height: 21px;
+    color: #37474f;
+    font-size: 18px;
+}
+.small-text{
+    width: 375px;
+    height: 42px;
+    /*background: #62a8ea;*/
+    color: #76838f;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.small-info{
+    width: 375px;
+    height: 21px;
+    /*background: #00ffff;*/
+    color: #76838f;
+    font-weight: 300;
+    font-size: 14px;
+}
+.small-info span{
+    margin-left: 10px;
+}
+/*花卉花语部分结束*/
+/*花卉工作室部分开始*/
+.gongzuoshi-box{
+    width: 1349px;
+    height: 765px;
+    padding: 70px 0;
+    /*background: blue;*/
+    /*position: absolute;*/
+
+}
+.gongzuoshi-cont{
+    width: 1140px;
+    height: 765px;
+    background: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.gongzuoshi-title{
+    width:1140px;
+    height: 43px;
+    /*background: #e33333;*/
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 11px;
+    color: #37474f;
+    line-height: 43px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.gongzuoshi-text{
+    width: 1080px;
+    height: 612px;
+    /*background: #ffac13;*/
+    font-size: 18px;
+    font-weight: 300;
+    color: #b0b0b0;
+    margin:0 auto;
+    text-align: center;
+
+}
+.first{
+    width: 1080px;
+    height: 32px;
+    /*background: red;*/
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 32px;
+
+
+}
+.second{
+    width: 1080px;
+    height: 32px;
+    /*background: #00a5c4;*/
+
+}
+.map{
+    width: 1080px;
+    height: 340px;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+}
+/*花卉工作室部分结束*/
+/*花卉工作室页尾部分开始*/
+.footer-box{
+    width: 1349px;
+    height: 161px;
+    /*background: red;*/
+    padding-bottom: 20px;
+
+    
+}
+.first-line{
+    width: 1349px;
+    border-top: 1px solid #f0f2f5;
+    background: #f5f5f5;
+    padding: 10px 0;
+}
+.tubiao{
+    width: 1349px;
+    height: 46px;
+    /*background: #ff6700;*/
+    margin-top: 10px;
+    padding: 5px 0;
+    text-align: center;
+    line-height: 56px;
+}
+.tubiao img{
+    width:26px;
+    height: 26px;
+    margin-left: 5px;
+}
+.foot-text{
+    width: 1349px;
+    height: 75px;
+    /*background: greenyellow;*/
+    /*position: absolute;*/
+    text-align: center;
+
+}
+.text-box{
+    width: 1140px;
+    height: 25px;
+    /*background: #e33333;*/
+    line-height: 25px;
+    /*position: absolute;*/
+    left: 104.5px;
+    text-align: center;
+    color: #89eceb;
+    margin: 0 auto;
+
+}
+
+/*花卉工作室页尾部分结束*/

@@ -1,0 +1,308 @@
+body{
+    background: #f0f0f0;
+}
+/*头部*/
+/*大盒子*/
+.kuang{
+    width: 7.5rem;
+    height: 2.6rem;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+/*头部盒子*/
+.personal-header{
+    width: 7.5rem;
+    height: 2.5rem;
+    background: #ffb20c;
+    margin: 0 auto;
+}
+/*信号栏*/
+#header{
+    width: 100%;
+    height: 0.4rem;
+    background: rgba(0,0,0,0.2);
+}
+.container{
+    width: 7rem;
+    height: 0.23rem;
+    /*background: yellow;*/
+    margin-left: 0.24rem;
+    position: absolute;
+    margin-top: 0.085rem;
+
+}
+.container img{
+    width: 7rem;
+    height: 0.23rem;
+}
+
+/*内容栏*/
+.header-title{
+    width: 7.5rem;
+    height: 0.87rem;
+    background: #ffb20c;
+}
+/*设置*/
+.header-set{
+     width: 0.4rem;
+     height: 0.4rem;
+     background: #ffffff;
+     border-radius: 50%;
+     float: left;
+    margin-top: 0.24rem;
+    margin-left: 0.24rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color: blue;
+    display: flex;
+ }
+.header-set i{
+    color: #ffb20c;
+    margin: 0 auto;
+}
+/*修改*/
+.header-modify{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #ffffff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.24rem;
+    margin-right: 0.24rem;
+    text-align: center;
+    line-height: 0.45rem;
+    color: blue;
+    display: flex;
+}
+.header-modify i{
+    color: #ffb20c;
+    margin: 0 auto;
+}
+/*信息栏*/
+.header-center{
+    width: 1.65rem;
+    height: 0.38rem;
+    /*background: cyan;*/
+    margin-top: 0.25rem;
+    margin-left: 2.28rem;
+    float: left;
+    font-size: 0.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+/*五个小信息栏*/
+.personal-information{
+    width: 6.9rem;
+    height: 1.26rem;
+    background: #ffffff;
+    margin: 0 auto;
+    position: absolute;
+    left: 0.3rem;
+    bottom: 0;
+    border-radius: 0.1rem;
+}
+.information-head{
+    width: 0.91rem;
+    height: 0.91rem;
+    /*background: cyan;*/
+    margin-top:0.17rem;
+    margin-left: 0.08rem;
+}
+.information-head img{
+    width: 0.91rem;
+    height: 0.91rem;
+    border-radius: 50%;
+}
+.head-content1{
+    width: 2rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top:0.17rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+}
+.head-content2{
+    width: 1.5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    right: 1.16rem;
+    top:0.17rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+}
+.head-content3{
+    width: 5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top:0.51rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+}
+.head-content4{
+    width: 1.5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top:0.95rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+}
+/*头部*/
+/*红包*/
+/*大盒子*/
+.personal-envelopes{
+    width: 5.37rem;
+    height: 0.7rem;
+    background: #f0f0f0;
+    margin: 0.84rem auto 0;
+    display: flex;
+    justify-content: space-around;
+}/*三个小盒子*/
+.envelopes-box{
+    width: 0.77rem;
+    height: 0.7rem;
+    /*background: cyan;*/
+}
+/*小盒子属性*/
+.box-envelopes{
+    width: 0.77rem;
+    height: 0.5rem;
+    /*background: #ff6700;*/
+    text-align: center;
+    font-size: 0.18rem;
+    color: #ffb20c;
+    line-height: 0.5rem;
+}
+.box-envelopes1{
+    width: 0.77rem;
+    height: 0.2rem;
+    /*background: #b1faff;*/
+    text-align: center;
+    font-size: 0.16rem;
+    color: #040400;
+}
+/*红包*/
+/*项目*/
+.personal-project{
+    width: 7.5rem;
+    height: 3.79rem;
+    background: #f0f0f0;
+    margin: 0.25rem auto 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.project-content{
+    width: 7.02rem;
+    height: 0.76rem;
+    background: #d0e9c6;
+    position: relative;
+    margin: 0 auto;
+}
+.project-content img{
+    width: 0.53rem;
+    height: 0.53rem;
+    margin-top: 0.11rem;
+}
+.content-cont{
+    width: 1.05rem;
+    height: 0.23rem;
+    /*background: #1a14ff;*/
+    position: absolute;
+    top: 0.22rem;
+    left:1.05rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+    font-weight: 800;
+}
+.content-cont1{
+    width: 0.5rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.22rem;
+    right:0.7rem;
+    background-color: #ff296f;
+    border-radius: 0.14rem;
+    line-height: 0.24rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.18rem;
+}
+/*项目*/
+
+
+
+/*底部导航*/
+/*底部导航*/
+.footerBox{
+    width: 100%;
+    height: 0.97rem;
+    background: #fff;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+
+}
+.footer-imageBox{
+    width: 6.54rem;
+    height: 0.97rem;
+    /*background: yellow;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.smallBox{
+    width: 1rem;
+    height: 0.84rem;
+    /*background: #ffffff;*/
+    font-size: 10px;
+    color: #000;
+    text-align: center;
+
+}
+.smallBox1{
+    width: 1rem;
+    height: 0.84rem;
+    /*background: #ffffff;*/
+    font-size: 10px;
+    color: #ffb20c;
+    text-align: center;
+}
+.smallBox1 img{
+    margin-top: 0.2rem;
+    margin-left: 0.28rem;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+
+.smallBox img{
+    margin-top: 0.2rem;
+    margin-left: 0.28rem;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+
+
+
+
+/*底部导航*/

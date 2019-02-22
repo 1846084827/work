@@ -1,0 +1,473 @@
+body{
+    background: #f2f2f2;
+}
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width:100%;
+    height: 0.91rem;
+    background: #ffb20c;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.topBar{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    height: 3.24rem;
+    background: #fff;
+    margin-top: 0.91rem;
+    box-shadow: 0 8px 18px 0
+    #f19d2f;
+    border: solid 1px #ffffff;
+    position: relative;
+
+
+}
+#imagebox{
+    width: 7.02rem;
+    height: 2.98rem;
+    background: #ff6700;
+    margin: 0 auto;
+    position: relative;
+}
+#imagebox li{
+    width: 7.02rem;
+    height: 2.98rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #b0b0b0;
+}
+#imagebox>li>img{
+    width: 7.02rem;
+    height: 2.98rem;
+    z-index: 1;
+}
+
+
+.searchBox{
+    width: 5rem;
+    height: 0.42rem;
+    background: #fff;
+    border-radius: 0.21rem;
+    margin-left: 1.17rem;
+}
+.scanBox{
+    width: 0.42rem;
+    height: 0.42rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0.17rem;
+}
+.search{
+    width: 0.29rem;
+    height: 0.29rem;
+    /*background:red;*/
+    margin-top: 0.07rem;
+    margin-left: 0.2rem;
+    float: left;
+    /*font-family:iconfont;*/
+    color: rgba(0,0,0,0.6);
+}
+.search i{
+    float: left;
+}
+.input{
+    width: 3.8rem;
+    height: 0.25rem;
+    /*background: #ff6700;*/
+    float: left;
+    border: none;
+    margin-top: 0.1rem;
+}
+.camera{
+    width: 0.33rem;
+    height: 0.25rem;
+    margin-top: 0.07rem;
+    float: left;
+    margin-left: 0.16rem;
+}
+.camera i{
+    float: left;
+    width: 0.26rem;
+    height: 0.2rem;
+    color: #b0b0b0;
+}
+.scanBox i{
+    width:0.21rem;
+    height: 0.24rem;
+    color:#b0b0b0;
+    float: left;
+    margin-top: 0.06rem;
+    margin-left: 0.06rem;
+}
+#pagerbox{
+    width: 1.1rem;
+    height: 0.13rem;
+    /*background: red;*/
+    position: absolute;
+    top: 0.26rem;
+    right: 0.63rem;
+    display: flex;
+}
+#pagerbox li{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    background: #fff;
+    align-content: space-between;
+    margin-left: 0.05rem;
+
+}
+#pagerbox li.active{
+    background: blue;
+}
+#category{
+    width: 6.73rem;
+    height: 3.96rem;
+    margin: 0.7rem auto 0 ;
+    /*background: red;*/
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.categoryBox{
+    display: block;
+    width: 1.47rem;
+    height: 1.98rem;
+
+    /*margin-left: 0.283rem;*/
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+.categoryBox>img{
+    width: 1.47rem;
+    height: 1.47rem;
+    /*background: #ff6700;*/
+
+}
+#run-to-buy{
+    width: 7.02rem;
+    height: 1.42rem;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.run-to-buy-title{
+    width: 2.8rem;
+    height: 0.3rem;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.run-to-buy-title li{
+    width: 0.53rem;
+    height: 0.3rem;
+    /*background: blue;*/
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.run-to-buy-three{
+    width:4.17rem;
+    height: 0.3rem;
+    /*background: green;*/
+    margin: 0.18rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-size: 10px;
+}
+.run-to-buy-three li{
+    width: 1rem;
+    height: 0.3rem;
+    /*background: yellow;*/
+    color: deeppink;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.run-to-buy-three li.black{
+    color: #000;
+}
+.purchase-time{
+    width: 2.82rem;
+    height: 0.42rem;
+    /*background: darkblue;*/
+    margin: 0.4rem auto;
+}
+.purchase-timeBox{
+    width: 2.56rem;
+    height: 0.42rem;
+    background: pink;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.purchase-timeBox li{
+    width: 0.32rem;
+    height: 0.42rem;
+    background: hotpink;
+    margin-right:0.05rem;
+    line-height: 0.42rem;
+    text-align: center;
+    font-size: 12px;
+    color: deeppink;
+}
+.purchase-timeBox li.active{
+    margin-right: 0;
+}
+.purchase-timeBox li.nobackground{
+    background: none;
+}
+
+
+/*推荐部分开始*/
+.recommend-imagebox{
+    width: 7.02rem;
+    height: 2.1rem;
+    /*background: green;*/
+    margin: 35px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recommend-imagebox img{
+    width: 3.28rem;
+    height: 2.1rem;
+}
+/*推荐部分结束*/
+/*每日推荐部分开始*/
+.day-recommend{
+    width: 7.5rem;
+    height: 1.1rem;
+    /*background: blue;*/
+    margin: 0 auto;
+}
+.day-recommend-box{
+    width: 7.02rem;
+    height: 1.1rem;
+    background: #b0b0b0;
+    margin: 0 auto;
+    position: relative;
+}
+.day-recommend-text{
+    width: 7.02rem;
+    height: 0.78rem;
+    /*background: #e33333;*/
+    font-size: 16px;
+    position: absolute;
+    top: 0.155rem;
+    display: flex;
+    flex-direction: column;
+    color: deeppink;
+}
+.circleBox{
+    /*width: 1.5rem;*/
+    /*background: #00a5c4;*/
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.circleBox li{
+    margin-top: 0.16rem;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    /*background: lightpink;*/
+    align-content: space-between;
+    margin-left: 0.1rem;
+
+}
+.circleBox li.circle{
+    background: hotpink;
+    margin-left: 0.6rem;
+}
+
+
+/*每日推荐部分结束*/
+/*商品块部分开始*/
+.commodity{
+    width: 7.02rem;
+    height: 1.52rem;
+    background: #fff;
+    margin: 0.3rem auto;
+    display: flex;
+}
+.commodity-imageBox{
+    width: 1.62rem;
+    height: 1.52rem;
+    background: #fff;
+    float: left;
+
+}
+.commodity-imageBox img{
+    width:1.02rem;
+    height: 1.02rem;
+    margin: 0.25rem auto;
+}
+.commodity-text{
+    width: 5.4rem;
+    height: 1.52rem;
+    flex-grow: 1;
+    /*background: #1b6d85;*/
+    position: relative;
+    float: left;
+}
+.commodity-text a.first{
+    width: 1.51rem;
+    height: 0.33rem;
+    /*background: #f96868;*/
+    position: absolute;
+    font-size: 12px;
+
+    line-height: 0.33rem;
+    left: 0;
+}
+
+.commodity-text a.second{
+    width: 2.7rem;
+    height: 0.23rem;
+    /*background: #f96868;*/
+    position: absolute;
+    font-size: 10px;
+
+    line-height: 0.23rem;
+    top: 0.53rem;
+    color:#b0b0b0;
+    left: 0;
+}
+
+.commodity-text a.third{
+    width: 2.7rem;
+    height: 0.23rem;
+    /*background: #f96868;*/
+    position: absolute;
+    font-size: 12px;
+    /*text-align: center;*/
+    line-height: 0.23rem;
+    top: 0.91rem;
+    left: 0;
+}
+.four-box{
+    width: 3.8rem;
+    height: 0.23rem;
+    /*background: #000;*/
+    position: absolute;
+    top: 1.24rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.four-box a{
+    width: 1.2rem;
+    height: 0.23rem;
+    /*background: #f96868;*/
+
+    font-size: 12px;
+    /*text-align: center;*/
+    line-height: 0.23rem;
+    color:#b0b0b0;
+}
+.evaluateBox{
+    width: 1.63rem;
+    height: 0.3rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    right: 0.3rem ;
+    top: 0.3rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.evaluateBox img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.gouwucheBox{
+    width: 0.49rem;
+    height: 0.49rem;
+    /*background: #000;*/
+    position: absolute;
+    top: 0.9rem;
+    right: 0.3rem;
+}
+.gouwucheBox img{
+    width: 0.49rem;
+    height: 0.49rem;
+}
+
+/*商品块部分结束*/
+/*底部部分开始*/
+.footerBox{
+    width: 100%;
+    height: 0.97rem;
+    background: #fff;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+
+}
+.footer-imageBox{
+    width: 6.54rem;
+    height: 0.97rem;
+    /*background: yellow;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.smallBox{
+    width: 1rem;
+    height: 0.84rem;
+    /*background: #ffffff;*/
+    font-size: 10px;
+    color: #000;
+    text-align: center;
+
+}
+.smallBox1{
+    width: 1rem;
+    height: 0.84rem;
+    /*background: #ffffff;*/
+    font-size: 10px;
+    color: #ffb20c;
+    text-align: center;
+}
+.smallBox1 img{
+    margin-top: 0.2rem;
+    margin-left: 0.28rem;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+
+.smallBox img{
+    margin-top: 0.2rem;
+    margin-left: 0.28rem;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+
+
+/*底部部分结束*/
